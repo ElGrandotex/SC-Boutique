@@ -4,6 +4,10 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { RouterModule } from '@angular/router';
 import { PrincipalComponent } from './pages/principal/principal.component';
+import { AccesoriosComponent } from './pages/accesorios/accesorios.component';
+import { BlusasComponent } from './pages/blusas/blusas.component';
+import { PantalonesComponent } from './pages/pantalones/pantalones.component';
+import { VestidosComponent } from './pages/vestidos/vestidos.component';
 
 
 
@@ -11,7 +15,11 @@ import { PrincipalComponent } from './pages/principal/principal.component';
   declarations: [
     ContactComponent,
     HomepageComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    AccesoriosComponent,
+    BlusasComponent,
+    PantalonesComponent,
+    VestidosComponent
   ],
   imports: [
     CommonModule,
