@@ -1,1 +1,25 @@
-<p>sidebar works!</p>
+<div class="text-center pt-2" style="background-color: #1F363D;">
+  <button (click)="toggleSidebar()" class="btn text-light">
+    <span class="material-symbols-outlined" style=" color: #9ec1a3;">
+      menu
+    </span>
+  </button>
+</div>
+
+<div class="color border-right p-2 text-center" *ngIf="sidebarVisible" id="sidebar">
+
+  <img src="assets/icon.jpg" class="animate__animated animate__fadeIn animate__slow imagen" alt="logo" routerLink="home">
+
+  <hr class="p-2">
+
+  <div class="list-group list-reset animate__animated animate__fadeIn animate__slower animate__delay-1s px-4">
+    <ul class="list-group textos">
+      <li class="list-group-item" routerLinkActive="active"  routerLink="home">
+        Home
+      </li>
+      <li class="list-group-item" routerLinkActive="active" routerLink="contacto">
+        Contacto
+      </li>
+    </ul>
+  </div>
+</div>
