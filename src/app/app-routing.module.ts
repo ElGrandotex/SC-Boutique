@@ -6,6 +6,7 @@ import { AccesoriosComponent } from './SC-Boutique/pages/accesorios/accesorios.c
 import { BlusasComponent } from './SC-Boutique/pages/blusas/blusas.component';
 import { PantalonesComponent } from './SC-Boutique/pages/pantalones/pantalones.component';
 import { VestidosComponent } from './SC-Boutique/pages/vestidos/vestidos.component';
+import { CartComponent } from './SC-Boutique/pages/cart/cart.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: 'vestidos',
     component: VestidosComponent
+  },
+  {
+    path: 'cart',
+    component: CartComponent
   },
   {
     path: '**',

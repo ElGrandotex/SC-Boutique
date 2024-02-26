@@ -4,17 +4,24 @@
       menu
     </span>
   </button>
+  <br>
+  <a href="cart">
+    <span class="material-symbols-outlined" style=" color: #9ec1a3;">
+      shopping_cart
+    </span>
+  </a>
 </div>
 
 <div class="color border-right p-2 text-center" *ngIf="sidebarVisible" id="sidebar">
 
-  <img src="assets/icon.jpg" class="animate__animated animate__fadeIn animate__slow imagen" alt="logo" routerLink="home">
+  <img src="assets/icon.jpg" class="animate__animated animate__fadeIn animate__slow imagen" alt="logo"
+    routerLink="home">
 
   <hr class="p-2">
 
-  <div class="list-group list-reset animate__animated animate__fadeIn animate__delay-1s px-4">
+  <div class="list-group list-reset animate__animated animate__fadeIn px-4">
     <ul class="list-group textos">
-      <li class="list-group-item" routerLinkActive="active"  routerLink="home">
+      <li class="list-group-item" routerLinkActive="active" routerLink="home">
         Home
       </li>
       <li class="list-group-item" routerLinkActive="active" routerLink="accesorios">
