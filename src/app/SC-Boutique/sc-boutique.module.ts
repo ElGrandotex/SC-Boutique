@@ -8,6 +8,7 @@ import { AccesoriosComponent } from './pages/accesorios/accesorios.component';
 import { BlusasComponent } from './pages/blusas/blusas.component';
 import { PantalonesComponent } from './pages/pantalones/pantalones.component';
 import { VestidosComponent } from './pages/vestidos/vestidos.component';
+import { CartComponent } from './pages/cart/cart.component';
 
 
 
@@ -19,7 +20,8 @@ import { VestidosComponent } from './pages/vestidos/vestidos.component';
     AccesoriosComponent,
     BlusasComponent,
     PantalonesComponent,
-    VestidosComponent
+    VestidosComponent,
+    CartComponent
   ],
   imports: [
     CommonModule,
