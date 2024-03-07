@@ -1,5 +1,5 @@
-<div class="container">
-  <h2 class="text-center p-4">Mi Carrito</h2>
+<h2 class="text-center p-4">Mi Carrito</h2>
+<div class="container" *ngIf="total>0">
   <br>
   <table matSort (matSortChange)="ordenarFila($event)" class="table table-striped text-center">
     <tbody>
@@ -16,6 +16,9 @@
         <th mat-sort-header="Precio">
           <h4>Precio</h4>
         </th>
+        <th>
+          <h4></h4>
+        </th>
       </tr>
       <tr *ngFor="let producto of carritoOrdenado || carrito">
         <td><img [src]="producto.imagen" class="card-img-top" [alt]="producto.nombre"></td>
@@ -27,6 +30,9 @@
         </td>
         <td>
           <h5>${{producto.precio}}</h5>
+        </td>
+        <td>
+          <button (click)="eliminarProducto(producto)" class="material-symbols-outlined text-danger">delete</button>
         </td>
       </tr>
     </tbody>
@@ -43,7 +49,7 @@
   </table>
 </div>
 
-<div class="container mt-5 text-center">
+<div class="container mt-5 text-center" *ngIf="total>0">
   <div class="row">
     <div class="col-12">
       <div class="alert alert-success" role="alert">
@@ -65,10 +71,14 @@
         <h5 class="p-4">Realiza la transferencia de valor <strong>${{total}}</strong></h5>
         <div class="row mt-3">
           <div class="col-12">
-            <a href="https://api.whatsapp.com/message/CLNB2AGZKCRMJ1?autoload=1&app_absent=0" class="btn btn-success">Presiona para enviar tu comprobante</a>
+            <a href="https://api.whatsapp.com/message/CLNB2AGZKCRMJ1?autoload=1&app_absent=0"
+              class="btn btn-success">Presiona para enviar tu comprobante</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
+<div class="text-center" *ngIf="total==0">
+  <h3>Tu carrito est&aacute; vac&iacute;o</h3>
 </div>

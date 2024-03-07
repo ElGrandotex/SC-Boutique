@@ -27,6 +27,10 @@ export class CartComponent {
     return this.compraSrv.totalPago;
   }
 
+  eliminarProducto(producto: Producto){
+    this.compraSrv.eliminarProductoCarrito(producto);
+  }
+
   ordenarFila(sort: Sort) {
     const data = this.carrito.slice();
     if (!sort.active || sort.direction === '') {
