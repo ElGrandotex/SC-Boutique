@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Vestido largo café y rojo",
+    "precio": 200,
+    "imagen": "assets\/imagenes\/vestidos\/vestido1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Vestido corto rosa y celeste",
+    "precio": 180,
+    "imagen": "assets\/imagenes\/vestidos\/vestido2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Vestido largo blanco",
+    "precio": 220,
+    "imagen": "assets\/imagenes\/vestidos\/vestido3.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Vestido corto verde",
+    "precio": 190,
+    "imagen": "assets\/imagenes\/vestidos\/vestido4.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Vestido corto blanco",
+    "precio": 195,
+    "imagen": "assets\/imagenes\/vestidos\/vestido5.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Vestido largo rojo",
+    "precio": 230,
+    "imagen": "assets\/imagenes\/vestidos\/vestido6.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Vestido largo verde y azul",
+    "precio": 240,
+    "imagen": "assets\/imagenes\/vestidos\/vestido7.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Vestido corto azul y blanco",
+    "precio": 210,
+    "imagen": "assets\/imagenes\/vestidos\/vestido8.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Vestido largo azul y blanco",
+    "precio": 250,
+    "imagen": "assets\/imagenes\/vestidos\/vestido9.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Vestido corto vino",
+    "precio": 220,
+    "imagen": "assets\/imagenes\/vestidos\/vestido10.jpg"
+  }
+]

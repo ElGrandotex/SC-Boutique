@@ -1,0 +1,21 @@
+.product-item {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+}
+
+.product-item img {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  clear: both;
+}
+
+.product-item button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}

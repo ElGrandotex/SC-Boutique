@@ -1,0 +1,14 @@
+td{
+  text-align: center;
+  vertical-align: middle;
+}
+
+img{
+  width: 250px;
+  align-items: center;
+}
+
+.text-center > img {
+  display: block;
+  margin: 0 auto;
+}

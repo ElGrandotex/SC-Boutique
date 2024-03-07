@@ -1,0 +1,10 @@
+Zapato 1: Botas plataforma alta negras
+Zapato 2: botines negras
+Zapato 3: Botas blancas
+Zapato 4: Botines negros con detalles metalicos
+Zapato 5: Zapatillas azules adidas
+Zapatos 6: Zapatillas cafes adidas
+Zapatos 7: Montañeras de hombre rojas
+Zapatos 8: Montañeras de hombre celestes
+Zapatos 9: Montañeras de hombre Cafes
+Zapatos 10: Montañeras de hombre Amarillas

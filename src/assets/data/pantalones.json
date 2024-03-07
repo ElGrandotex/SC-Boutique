@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pantalón negro",
+    "precio": 80,
+    "imagen": "assets\/imagenes\/pantalones\/pantalon1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Pantalón azul",
+    "precio": 85,
+    "imagen": "assets\/imagenes\/pantalones\/pantalon2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Pantalón blanco",
+    "precio": 90,
+    "imagen": "assets\/imagenes\/pantalones\/pantalon3.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Pantalón verde",
+    "precio": 95,
+    "imagen": "assets\/imagenes\/pantalones\/pantalon4.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Pantalón marrón",
+    "precio": 100,
+    "imagen": "assets\/imagenes\/pantalones\/pantalon5.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Pantalón gris",
+    "precio": 105,
+    "imagen": "assets\/imagenes\/pantalones\/pantalon6.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Pantalón rojo",
+    "precio": 110,
+    "imagen": "assets\/imagenes\/pantalones\/pantalon7.jpg"
+  },{
+    "id": 8,
+    "nombre": "Pantalón amarillo",
+    "precio": 115,
+    "imagen": "assets\/imagenes\/pantalones\/pantalon8.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Pantalón naranja",
+    "precio": 120,
+    "imagen": "assets\/imagenes\/pantalones\/pantalon9.jpg"
+  }
+
+]
