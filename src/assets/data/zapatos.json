@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Botas plataforma alta negras",
+    "precio": 100,
+    "imagen": "assets\/imagenes\/zapatos\/Zapato1.jpeg"
+  },
+  {
+    "id": 2,
+    "nombre": "Botines negras",
+    "precio": 90,
+    "imagen": "assets\/imagenes\/zapatos\/Zapato2.jpeg"
+  },
+  {
+    "id": 3,
+    "nombre": "Botas blancas",
+    "precio": 110,
+    "imagen": "assets\/imagenes\/zapatos\/Zapato3.jpeg"
+  },
+  {
+    "id": 4,
+    "nombre": "Botines negros con detalles metálicos",
+    "precio": 120,
+    "imagen": "assets\/imagenes\/zapatos\/Zapato4.jpeg"
+  },
+  {
+    "id": 5,
+    "nombre": "Zapatillas azules Adidas",
+    "precio": 80,
+    "imagen": "assets\/imagenes\/zapatos\/Zapato5.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Zapatillas cafés Adidas",
+    "precio": 85,
+    "imagen": "assets\/imagenes\/zapatos\/Zapato6.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Montañeras de hombre rojas",
+    "precio": 150,
+    "imagen": "assets\/imagenes\/zapatos\/Zapato7.jpeg"
+  },
+  {
+    "id": 8,
+    "nombre": "Montañeras de hombre celestes",
+    "precio": 155,
+    "imagen": "assets\/imagenes\/zapatos\/Zapato8.jpeg"
+  },
+  {
+    "id": 9,
+    "nombre": "Montañeras de hombre cafés",
+    "precio": 160,
+    "imagen": "assets\/imagenes\/zapatos\/Zapato9.jpeg"
+  },
+  {
+    "id": 10,
+    "nombre": "Montañeras de hombre amarillas",
+    "precio": 165,
+    "imagen": "assets\/imagenes\/zapatos\/Zapato10.jpeg"
+  }
+]
